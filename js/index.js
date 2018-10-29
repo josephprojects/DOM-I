@@ -51,7 +51,7 @@ let nav = document.querySelectorAll('nav a');
 // nav[4].textContent = siteContent.nav['nav-item-5'];
 // nav[5].textContent = siteContent.nav['nav-item-6'];
 
-nav.forEach((item, i) => nav[i].textContent = siteContent.nav[`nav-item-${++i}`]);
+nav.forEach((item, i) => item.textContent = siteContent.nav[`nav-item-${++i}`]);
 
 nav.forEach(item => item.style.color = 'green');
 
